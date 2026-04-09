@@ -21,8 +21,8 @@ const routes = [
     }
   },
   {
-    path: '/about',
-    name: 'about',
+    path: '/vue3ViteProject',
+    name: 'Vue3ViteProject',
     component: AboutView,
     meta: {
       title: '关于我们',

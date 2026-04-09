@@ -13,7 +13,7 @@
           <el-icon><i-ep-home /></el-icon>
           <span>首页</span>
         </el-menu-item>
-        <el-menu-item index="/about">
+        <el-menu-item index="/vue3ViteProject">
           <el-icon><i-ep-info /></el-icon>
           <span>关于我们</span>
         </el-menu-item>

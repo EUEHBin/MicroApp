@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>Welcome to Home Page</h1>
-    <p>This is the home view of the application.</p>
+    <p>该页面运行在基座中</p>
   </div>
 </template>
 

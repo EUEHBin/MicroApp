@@ -6,6 +6,9 @@ import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import router from './router'
+import microApp from '@micro-zoe/micro-app'
+
+microApp.start()
 
 const app = createApp(App)
 
