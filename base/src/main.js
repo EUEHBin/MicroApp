@@ -8,7 +8,9 @@ import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import router from './router'
 import microApp from '@micro-zoe/micro-app'
 
-microApp.start()
+microApp.start({
+   "router-mode": "native",
+})
 
 const app = createApp(App)
 

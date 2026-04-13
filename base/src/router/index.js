@@ -21,7 +21,7 @@ const routes = [
     }
   },
   {
-    path: '/vue3ViteProject',
+    path: '/vue3ViteProject/:page*',
     name: 'Vue3ViteProject',
     component: AboutView,
     meta: {
