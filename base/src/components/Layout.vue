@@ -47,7 +47,12 @@ const route = useRoute()
 
 // 计算当前激活的路由
 const activeRoute = computed(() => {
-  return route.path
+  const path = route.path
+  // 处理子应用路由，当路径包含子应用前缀时，返回子应用根路径
+  if (path.startsWith('/vue3ViteProject')) {
+    return '/vue3ViteProject'
+  }
+  return path
 })
 </script>
 
